@@ -8,3 +8,9 @@ creativeObj.sigHej = () => {for(let element of creativeObj.boern){console.log("h
 
 console.log(creativeObj);
 creativeObj.sigHej();
+
+let f = (x) => console.log(x)
+
+let a = f;
+
+a("bob");
